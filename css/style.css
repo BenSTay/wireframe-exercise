@@ -1,0 +1,41 @@
+body {
+  width: 960px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 100px;
+  background-color: #444
+}
+
+nav {
+  width: 100%;
+}
+
+header img {
+  display: inline-block;
+}
+
+nav ul {
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav li {
+  display: inline-block;
+  line-height: 70px;
+  padding: 0 34px;
+}
+
+main ul {
+  font-size: 0;
+}
+
+main ul li {
+  display: inline-block;
+  margin: 30px 30px 30px 0;
+}
+
+main ul li:last-child {
+  margin-right: 0;
+}
